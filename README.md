@@ -13,6 +13,7 @@
 3. Ejecutar `npm run start:dev`
 4. Tener NestJS CLI instalado `npm i -g @nestjs/cli`
 5. Levantar la base de datos con `docker-compose up -d`
+6. Reconstruir la base de datos con `localhost:3000/api/v2/seed`
 
 ## Stack Usado
 - NestJS
