@@ -20,7 +20,7 @@ export class PokemonService {
     private readonly pokemonModel: Model<Pokemon>,
     private readonly configService: ConfigService,
   ) {
-    this.defaultLimit = this.configService.get<number>('default_limit');
+    this.defaultLimit = this.configService.get<number>('defaultLimit');
   }
 
   async create(createPokemonDto: CreatePokemonDto) {

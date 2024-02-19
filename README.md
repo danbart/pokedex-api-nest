@@ -10,10 +10,12 @@
 # Ejecutar en Desarrollo
 1. Clonar el repositorio
 2. Ejecutar `npm install`
-3. Ejecutar `npm run start:dev`
-4. Tener NestJS CLI instalado `npm i -g @nestjs/cli`
-5. Levantar la base de datos con `docker-compose up -d`
-6. Reconstruir la base de datos con `localhost:3000/api/v2/seed`
+3. Tener NestJS CLI instalado `npm i -g @nestjs/cli`
+4. Levantar la base de datos con `docker-compose up -d`
+5. Clonar el archivo `.env.template` y renombrar la copia a `.env`
+6. Llenar las variables de entorno en el archivo `.env`
+7. Ejecutar `npm run start:dev`
+8. Reconstruir la base de datos con `localhost:3000/api/v2/seed`
 
 ## Stack Usado
 - NestJS
